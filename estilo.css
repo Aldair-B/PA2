@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#principal{
+    width:100%;
+    height: 100vh;
+    background-image: url(imagen/vet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+}
+#centro{
+    width:70%;
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    opacity: 0.75;
+    
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+#centro p{
+    text-align: center;
+    font-size: 20px;
+}
+#menu,#menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   } 
+li{
+    list-style-type: none;
+    padding:10px;
+}
+#menu2 a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}#menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#iconos {
+  
+    text-align: center;
+     
+
+}
+#iconos2{
+  
+    text-align: center;
+}
+i{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+/* estilo para el blog*/
+#contenedor{
+    width:75%;
+    margin:auto;
+    border:3px solid rgb(231, 238, 240);
+    border-radius: 0 0 20px 20px;
+     box-shadow: 0px 4px 10px rgba(18, 71, 73, 0.116);
+     margin-bottom: 20px;
+
+}
+#misvideos h1 {
+
+    background-color: #e0ecee;
+    border-radius: 30px;
+}
+#cabecera{   
+    margin:0 40px;
+    position:fixed;
+    width:70%;
+    height: 150px;
+    background-color: #91beb6;
+    box-shadow: 0px 2px 15px rgba(23, 72, 73, 0.397);
+    color: azure;
+    z-index:100;
+    border-radius: 0 0 30px 40px;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    margin:5px;
+    
+    
+    
+}
+header:hover {
+  font-weight: bold; 
+    font-size: 33px;
+    color: #ffffff;
+      text-shadow: 0 4px 15px rgba(255, 255, 255, 0.356);
+
+}
+#gatovet {
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.137);
+      border-radius: 0 0 20px 20px;
+    width:1300px; 
+    height:300px;
+    }
+section{
+margin-top: 120px;
+padding: 50px 50px 20px 50px;
+
+
+}
+section img{
+    display: block;
+    margin:auto;
+}
+section h1:hover{
+ font-size: 54px;
+ background-color: #7da39b;
+ color: #fcfcfc;
+ border-radius: 30px ;
+
+}
+#menu2 a{
+    text-decoration: none;
+}
+/*estilo video*/
+#misvideos{
+    border-radius: 20px;
+    background-color: #aec9c4;
+    padding: 20px;
+      box-shadow: 0 6px 15px rgba(62, 133, 128, 0.185);
+
+
+}
+#misvideos h1:hover{
+    border-radius: 20px;
+    background-color: #7da39b;
+    padding: 20px;
+      box-shadow: 0 6px 15px rgba(62, 133, 128, 0.185);
+
+
+}
+#youtube{    
+    border:6px solid #e9f3f3;
+    width:100%;    
+    padding-bottom: 56.25%;
+    height: 0;
+    position: relative;
+margin-bottom: 50px;
+
+}
+#vimeo{    
+    border:6px solid #e9f3f3;
+    width:100%;    
+    padding-bottom: 56.25%;
+    height: 0;
+    position: relative;
+margin-bottom: 50px;
+
+}
+iframe{
+    width:100%;
+    height: 100%;
+    position:absolute;
+}
+
+#menu a:hover {
+  background-color: rgb(252, 252, 252);
+  color: #90b6af; 
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.671);
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 5px;
+  
+}
+#textosveterinaria {
+
+    padding: 20px 20px;
+  border-radius: 20px; 
+  background-color: #6da399;
+  width: auto;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.397);
+
+}
+
+
+#iconos i:hover {
+    background-color: rgb(252, 252, 252);
+  color: #90b6af; 
+  margin: 10px;
+  font-size: 30px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.671);
+  transform: scale(1.4);
+  border-radius: 20px;
+ margin-top: 20px;
+ 
+}
+#iconos i{
+    color: white;
+}
+
+#titulovet i{
+    font-size: 47px;
+}
+#titulovet h1:hover {
+     font-size: 42px;
+
+}
+body {
+    background-color: #c7e6e6;
+}
+#contenedor{
+    background-color: #e7eef0;
+}
+#menu2 a:hover {
+  background-color: rgb(252, 252, 252);
+  color: #91beb6; 
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.479);
+  border-radius: 20px;
+  padding: 5px;
+  border-bottom: 5px solid #87b6ad;
+}
+footer{
+    background-color: #91beb6;
+    padding-bottom: 10px;
+    border-radius: 0 0 20px 20px;
+    color: rgb(252, 252, 252);
+    margin-top: 20px;
+}
+footer i{
+    font-size: 30px;
+    margin: 20px 10px 10px 60px;
+    color: white;
+    
+}
+footer i:hover{
+     background-color: #fcfcfc;
+  color: #91beb6; 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.479);
+  border-radius: 20px;
+  
+}
+.alumnofoto {
+    
+     position: fixed;
+     left: 82%;
+     top: 300px;
+     margin: 10px;
+     background-color: #eff4f5;
+     border-radius: 10px 0  0 10px;
+       box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.075);
+
+    padding: 10px;
+     
+}
+.alumnofoto img {
+    margin-bottom: 5px;
+    border-radius: 100%;
+}
+.alumnofoto p {
+    font-size: 14px;
+}
+
+#parrafoconfoto{
+     display: flex;       
+    align-items: center; 
+    flex-direction: row;   
+    margin: 25px;
+}
+#parrafoconfoto img {
+width: 240px;}
+
+#parrafoconfoto p {
+    margin-left: 25px;
+}
+section p {
+    font-size: 20px;
+    color: #437068;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section h1 {
+    color: #437068;
+    font-size: 50px;
+    margin: 20px;
+}
+/*galeria*/
+
+#bloques {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+
+.contenido{
+
+    margin: 10PX;
+    
+    
+    font-family: "Aldrich", sans-serif;
+    text-align: center;
+    width: 30%;
+    color: #e7eef0;
+    
+
+
+}
+
+.contenido h3{
+    
+    text-align: center;
+    background-color:#87b6ad;
+    border: 3px solid #e7eef0;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contenido img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   opacity: 0.70;
+    
+    
+}
+.contenido img:hover {
+   opacity: 1; 
+}
+
+.contenido:hover{
+    width: 31%;
+    box-shadow:0 7px 10px rgba(0, 0, 0, 0.192);
+}
